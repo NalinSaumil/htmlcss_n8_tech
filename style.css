@@ -1,0 +1,186 @@
+/* Fonts from Google Fonts - more at https://fonts.google.com */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+@import url('https://fonts.googleapis.com/css?family=Merriweather:400,700');
+/*General*/
+body {
+  background-color: black;
+  font-family: "Open Sans", sans-serif;
+  padding: 5px 25px;
+  font-size: 18px;
+  margin: 0;
+  color: #444;
+}
+/*Navigation*/
+div.navbar {
+  width: 470px;
+  overflow: hidden;
+  z-index: 3;
+  margin:auto;
+  clear: both;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: darkgray;
+  width: 1340px;
+}
+li a, .btn-name {
+  display: inline-block;
+  color: rgb(64, 39, 178);
+  text-align: center;
+  padding: 5px 16px;
+  text-decoration: none;
+  font-size: 15px
+}
+li {
+  float: left;
+  border-right:1px solid black;
+}
+li a:hover, .button:hover .btn-name {
+  color: rebeccapurple;
+}
+li a:active, .button:active .btn-name {
+  color: rebeccapurple;
+}
+li.button {
+  display: inline-block;
+}
+.opt {
+  display: none;
+  position: absolute;
+  background-color: rgb(255, 201, 102);
+}
+.opt a {
+  color: black;
+  padding: 9px 12px;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+}
+.opt a:hover {
+  background-color: rgb(205, 165, 243);
+}
+/*Everything else*/
+#logo{
+  max-width: 20%;
+  float: right;
+}
+h1 {
+  float: left;
+  font-family:'Audiowide', cursive;
+  font-size: 50px;
+  color: rgb(64, 39, 178); 
+  margin-top: 80px;
+}
+#i1 {
+  width: 50%;
+}
+.txt {
+  width: 400px;
+  float: right;
+  align-content: flex-start;
+  margin-right: 80px;
+  clear: both;
+}
+h4 {
+  font-size: 30px;
+  color: white;
+}
+.footer {
+  margin: auto;
+  background-color: darkgray;
+  clear: both;
+  width: 401px;
+  margin-top: 20px;
+}
+p {
+  color: black;
+  font-size: 13px;
+}
+#i2 {
+  margin-top: 15px;
+  width: 40%;
+}
+#i3 {
+  margin-left: 575px;
+}
+#i4 {
+  width: 40%;
+  margin-top: 30px;
+}
+#i5 {
+  width: 20%;
+  float: left;
+  margin-left: 200px;
+}
+.txt2 {
+   margin: auto;
+}
+#deals {
+  color: white;
+  text-align: center;
+}
+.c1 {
+  width: 300px;
+  background-color: yellow;
+}
+#c1a {
+   font-family: sans-serif;
+   color: black;
+  text-align: center;
+}
+h6 {
+  color: black;
+  text-align: center;
+  font-size: 20px
+}
+.c2 {
+  width: 200px;
+  background-color: deeppink;
+  float: right;
+  margin-top: -300px;
+}
+#c2a {
+  font-family: sans-serif;
+  color: black;
+  text-align: center;
+}
+.c3 {
+  width: 250px;
+  height: 275px;
+  background-color: blue;
+  float: left;
+  margin-left: 400px;
+  margin-top: -300px;
+}
+#c3a {
+  font-family: sans-serif;
+  color: black;
+  text-align: center;
+}
+.c4 {
+  width: 200px;
+  height: 275px;
+  background-color: rgb(21, 255, 0);
+  float: left;
+  margin-left: 800px;
+  margin-top: -300px;
+}
+#c4a {
+  font-family: sans-serif;
+  color: black;
+  text-align: center;
+}
+.loc{
+  clear: both;
+  height: 300px;
+  width: 500px;
+  margin-left: 500px;
+}
+#loct {
+  float: right;
+  width: 30%;
+  margin-top: 30px;
+}
